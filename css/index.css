@@ -87,7 +87,6 @@
 
 img {
   width: 200px;
-  margin-left: -100px;
   margin-top: -25px;
   display: flex;
   justify-content: center;
@@ -95,21 +94,29 @@ img {
 
 .image-container {
   display: flex;
+  margin-right: 100px;
 }
 
 #one {
-  margin-top: -175px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  height: 200px;
+  width: 2000px;
 }
 
 #two{
   display: flex;
   justify-content: center;
-   margin-left: 100px;
-   margin-right: -100px;
 }
 
 #four{
   object-fit: scale-down;
   display: flex;
+}
+
+#three{
+  margin-left: 100px;
+  justify-content: center;
+  margin-top: 50px;
 }
