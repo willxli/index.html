@@ -87,7 +87,8 @@
 
 img {
   width: 200px;
-  margin-top: -25px;
+  margin-top: -50px;
+  margin-left: 50px;
   display: flex;
   justify-content: center;
   display: -webkit-flex;
@@ -118,9 +119,11 @@ img {
   object-fit: scale-down;
   display: flex;
   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 #three{
