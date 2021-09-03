@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello, World!</title>
-    <link>https://williamli.github.io/</link>
+    <link>/</link>
     <description>Recent content on Hello, World!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://williamli.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
