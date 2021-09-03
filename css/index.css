@@ -84,3 +84,14 @@
   left: 0;
   bottom: 0px;
 }
+
+img {
+  width: 225px;
+  margin-left: -100px;
+  margin-top: -25px;
+}
+
+#one {
+  margin-top: -175px;
+  margin-bottom: 150px;
+}
