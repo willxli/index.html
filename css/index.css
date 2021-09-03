@@ -88,8 +88,7 @@
 img {
   width: 200px;
   height: 200px;
-  margin-top: -50px;
-  margin-left: 50px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   display: -webkit-flex;
@@ -101,14 +100,6 @@ img {
 .image-container {
   display: flex;
   margin-right: 100px;
-}
-
-#one {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  height: 250px;
-  width: 2000px;
 }
 
 #two{
