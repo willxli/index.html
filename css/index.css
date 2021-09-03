@@ -95,3 +95,8 @@ img {
   margin-top: -175px;
   margin-bottom: 150px;
 }
+
+#two{
+  margin-left: 100px;
+  margin-right: -100px;
+}
