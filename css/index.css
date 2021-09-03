@@ -90,6 +90,10 @@ img {
   margin-top: -25px;
   display: flex;
   justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 .image-container {
@@ -113,10 +117,17 @@ img {
 #four{
   object-fit: scale-down;
   display: flex;
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
 }
 
 #three{
   margin-left: 100px;
   justify-content: center;
-  margin-top: 50px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
