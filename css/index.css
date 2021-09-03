@@ -87,6 +87,7 @@
 
 img {
   width: 200px;
+  height: 200px;
   margin-top: -50px;
   margin-left: 50px;
   display: flex;
@@ -106,7 +107,7 @@ img {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
-  height: 200px;
+  height: 250px;
   width: 2000px;
 }
 
@@ -127,7 +128,7 @@ img {
 }
 
 #three{
-  margin-left: 100px;
+  margin-left: opx;
   justify-content: center;
   display: -webkit-flex;
   display: flex;
