@@ -86,7 +86,7 @@
 }
 
 img {
-  width: 225px;
+  width: 200px;
   margin-left: -100px;
   margin-top: -25px;
 }
@@ -94,11 +94,6 @@ img {
 #one {
   margin-top: -175px;
   margin-bottom: 150px;
-}
-
-#two{
-  margin-left: 100px;
-  margin-right: -100px;
 }
 
 #four{
