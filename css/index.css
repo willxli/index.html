@@ -12,7 +12,7 @@
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  color: grey;
+  color: #ffffff;
 }
 
 #mainBG .wave {
@@ -87,7 +87,7 @@
 
 img {
   width: 225px;
-  margin-left: 400px;
+  margin-left: -100px;
   margin-top: -25px;
 }
 
@@ -99,4 +99,8 @@ img {
 #two{
   margin-left: 100px;
   margin-right: -100px;
+}
+
+#four{
+  object-fit: scale-down;
 }
