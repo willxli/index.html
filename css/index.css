@@ -126,3 +126,18 @@ img {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
+
+.image {
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.icons {
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.about {
+  flex: 1;
+  justify-content: space-evenly;
+}
