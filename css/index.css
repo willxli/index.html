@@ -139,13 +139,12 @@ img {
 }
 
 .about {
-  margin-right: auto;
   flex: 1;
   justify-content: space-evenly;
 }
 
 @media screen and (max-height: 200px) {
-  #main {
+  .image {
     display: block;
   }
 }
