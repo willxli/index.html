@@ -131,6 +131,7 @@ img {
   flex: 1;
   justify-content: space-evenly;
   min-width: 150px;
+  object-fit: cover;
 }
 
 .icons {
@@ -143,8 +144,32 @@ img {
   justify-content: space-evenly;
 }
 
-@media screen and (max-height: 200px) {
+@media screen and (max-width: 425px) {
   .image {
-    display: block;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .image {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  .image {
+    object-fit: cover;
   }
 }
