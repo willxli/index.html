@@ -129,14 +129,14 @@ img {
   flex: 1;
   justify-content: space-evenly;
   object-fit: scale-down;
-  max-width: 225px;
-  height: 225px;
+  max-width: 275px;
+  max-height: 275px;
   width: 225px;
   height: 225px;
 }
 
 .icons {
-  flex: 1;
+  flex: 2;
   justify-content: space-evenly;
 }
 
