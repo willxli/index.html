@@ -90,9 +90,8 @@ img {
   height: 200px;
   margin-top: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   display: -webkit-flex;
-  display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
 }
@@ -104,14 +103,13 @@ img {
 
 #two{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #four{
   object-fit: scale-down;
   display: flex;
   display: -webkit-flex;
-  display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
   margin-left: 0px;
@@ -120,7 +118,7 @@ img {
 
 #three{
   margin-left: 0px;
-  justify-content: center;
+  justify-content: space-evenly;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -130,7 +128,7 @@ img {
 .image {
   flex: 1;
   justify-content: space-evenly;
-  object-fit: cover;
+  object-fit: scale-down;
   width: 100%;
   height: auto;
 }
@@ -147,30 +145,30 @@ img {
 
 @media screen and (max-width: 425px) {
   .image {
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
 
 @media screen and (max-width: 768px) {
   .image {
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .image {
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .image {
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
 
 @media screen and (max-width: 2560px) {
   .image {
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
