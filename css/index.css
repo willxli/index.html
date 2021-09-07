@@ -130,8 +130,9 @@ img {
 .image {
   flex: 1;
   justify-content: space-evenly;
-  min-width: 150px;
   object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .icons {
