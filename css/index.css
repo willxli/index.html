@@ -135,7 +135,7 @@ img {
 
 .icons {
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .about {
