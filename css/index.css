@@ -118,7 +118,7 @@ img {
 
 #three{
   margin-left: 0px;
-  justify-content: space-evenly;
+  justify-content: center;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -140,7 +140,7 @@ img {
 
 .about {
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 @media screen and (max-width: 425px) {
