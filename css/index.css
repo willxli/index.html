@@ -86,8 +86,8 @@
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   margin-top: 0px;
   display: flex;
   justify-content: space-evenly;
@@ -129,8 +129,10 @@ img {
   flex: 1;
   justify-content: space-evenly;
   object-fit: scale-down;
-  width: 100%;
-  height: auto;
+  max-width: 225px;
+  height: 225px;
+  width: 225px;
+  height: 225px;
 }
 
 .icons {
